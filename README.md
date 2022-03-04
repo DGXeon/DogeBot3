@@ -6,7 +6,7 @@
 </div>
 
 <p align="center">
-<a href="##"><img title="SELF-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&color=blue"></a>
+<a href="##"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&color=blue"></a>
 </p>
 <p align="center">
   <a href="https://github.com/DGXeon"><img title="Author" src="https://img.shields.io/badge/Author-Xeon-blue.svg?style=for-the-badge&logo=github" /></a>
@@ -47,7 +47,7 @@ heroku/nodejs
 ## Clone Repo & Installation dependencies
 ```bash
 🦄 git clone https://github.com/DGXeon/DogeBot.git
-🦄 cd DogeBot2
+🦄 cd DogeBot3
 🦄 npm start
 ```
 ## For Termux
@@ -64,10 +64,9 @@ heroku/nodejs
 🦄 pkg install wget
 🦄 pkg install imagemagick -y
 🦄 git clone https://github.com/DGXeon/DogeBot2
-🦄 cd DogeBot2
+🦄 cd DogeBot3
 🦄 ls
 🦄 rm -rf session.json
-🦄 npm install
 🦄 npm start
 🦄 scan qr code within 15seconds
 ```
