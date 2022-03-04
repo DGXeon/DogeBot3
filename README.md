@@ -26,10 +26,11 @@
 
 [`Click Here`](https://github.com/DGXeon/DogeBot2/blob/master/session.json#L1)
 
-## `SETTING`
+## `SETTINGS`
 
-- CHANGE OWNER NUMBER [Here](https://github.com/DGXeon/DogeBot2/blob/master/settings.json#L10)
-- CHANGE OWNER NAME [Here](https://github.com/DGXeon/DogeBot2/blob/master/settings.json#L12)
+- CHANGE OWNER NUMBER [Here](https://github.com/DGXeon/DogeBot3/blob/master/settings.json#L6)
+- CHANGE OWNER NAME [Here](https://github.com/DGXeon/DogeBot3/blob/master/settings.json#L7)
+- CHANGE BOT NAME [Here](https://github.com/DGXeon/DogeBot3/blob/master/settings.json#L8)
 
 ## ` BUILDPACKS`
 
@@ -55,7 +56,7 @@ heroku/nodejs
 🦄 cd DogeBot3
 🦄 npm start
 ```
-## `For Termux`
+## `For Termux/Ssh/Ubuntu`
 ```bash
 🦄 apt update
 🦄 apt upgrade
