@@ -1,5 +1,5 @@
-<div align="center">
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
+![Alt Text](https://im2.ezgif.com/tmp/ezgif-2-4cbc005546.gif)
 
 ## Doge Bot V3
 
