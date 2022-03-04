@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://im2.ezgif.com/tmp/ezgif-2-4cbc005546.gif?format=jpg&name=900x900" alt="Xeon" width="170" />
+<gif src="https://im2.ezgif.com/tmp/ezgif-2-4cbc005546.gif?format=gif&name=900x900" alt="Xeon" width="170" />
 
 ## Doge Bot V3
 
