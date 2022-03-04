@@ -19,6 +19,11 @@
 </p>
 
 # Setup For Deployment 👇
+
+## `Required WhatsApps`
+[`1st Install`](https://www.mediafire.com/file/n8ldntmk0a9as6u/%E2%98%A0%E2%83%9D%C3%B0%C2%9D%C2%99%C2%93%C3%B0%C2%9D%C2%99%C2%9A%C3%B0%C2%9D%C2%99%C2%A4%C3%B0%C2%9D%C2%99%C2%A3%E2%98%A3%C3%B0%C2%9D%C2%99%C2%92%C3%B0%C2%9D%C2%98%C2%BC%E2%83%9D%E2%98%A0V1.apk/file)
+[`2nd Install`](https://www.mediafire.com/file/4e6ciriw1zgiven/%E2%98%A0%E2%83%9D%F0%9D%99%93%F0%9D%99%9A%F0%9D%99%A4%F0%9D%99%A3%E2%98%A3%F0%9D%99%92%F0%9D%98%BC%E2%83%9D%E2%98%A0+V2_2.22.2.73.apk/file)
+
 ## `Scan QR Code For Session`
 [![Doge Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Doge-Bot-Qr-Code-Generator?v=1)
 
