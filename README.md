@@ -18,7 +18,7 @@
 <a href="#"><img title="Xeon" src="https://img.shields.io/static/v1?label=WHATSAPP&message=Automated-Bot&color=blue"></a>
 </p>
 
-# Setup For Deployment
+# Setup For Deployment 👇
 ## `Scan QR Code For Session`
 [![Doge Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Doge-Bot-Qr-Code-Generator?v=1)
 
@@ -43,7 +43,7 @@ heroku/nodejs
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DGXeon/DogeBot3/)
 
-# Install Manually
+# Install Manually 👇
 ## `Requirements`
 * [Node.js](https://nodejs.org/en/)
 * [Git](https://git-scm.com/downloads)
@@ -76,7 +76,7 @@ heroku/nodejs
 🦄 npm start
 🦄 scan qr code within 15seconds
 ```
-## Installation Video
+## Installation Video 👇
 - Review video [Click here](https://youtu.be/zXvwqA8LvTw)
 - Tutorial video [Click here](https://youtu.be/B7DN5miMS3k)
 ## Connect With Me
@@ -92,6 +92,6 @@ My Whatsapp Group👇
 
 * [`My Youtube Channel`](https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A)
 
-# Thanks To
+# Thanks To 👇
 * [`Baileys`](https://github.com/adiwajshing/Baileys)
 * [`Xeon`](https://github.com/DGXeon)
