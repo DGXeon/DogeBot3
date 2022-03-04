@@ -1,5 +1,5 @@
 
-![Alt Text](https://im2.ezgif.com/tmp/ezgif-2-4cbc005546.gif)
+![Alt Text](https://media.tenor.com/images/55708181ec0e8ffa9b63f71a6b2ac2bd/tenor.gif)
 
 ## Doge Bot V3
 
