@@ -1,5 +1,6 @@
-
+<p align="center">
 ![Alt Text](https://media.tenor.com/images/55708181ec0e8ffa9b63f71a6b2ac2bd/tenor.gif)
+</p>
 
 ## Doge Bot V3
 
