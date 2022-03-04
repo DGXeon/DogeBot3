@@ -1,0 +1,49 @@
+{
+  "_from": "tsc@^2.0.3",
+  "_id": "tsc@2.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-SN+9zBUtrpUcOpaUO7GjkEHgWtf22c7FKbKCA4e858eEM7Qz86rRDpgOU2lBIDf0fLCsEg65ms899UMUIB2+Ow==",
+  "_location": "/Zbin-Wabot/tsc",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "tsc@^2.0.3",
+    "name": "tsc",
+    "escapedName": "tsc",
+    "rawSpec": "^2.0.3",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.3"
+  },
+  "_requiredBy": [
+    "/Zbin-Wabot"
+  ],
+  "_resolved": "https://registry.npmjs.org/tsc/-/tsc-2.0.3.tgz",
+  "_shasum": "037fe579e3bd67a5cbdaa604b43c6c1991b04bef",
+  "_spec": "tsc@^2.0.3",
+  "_where": "/storage/emulated/0/Anu-Wabot-main",
+  "author": {
+    "name": "basaratali@gmail.com"
+  },
+  "bin": {
+    "tsc": "bin/tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/basarat/tsc/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A deprecated release of the TypeScript compiler",
+  "homepage": "https://github.com/basarat/tsc#readme",
+  "keywords": [
+    "typescript"
+  ],
+  "license": "MIT",
+  "main": "./bin/tsc.js",
+  "name": "tsc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basarat/tsc.git"
+  },
+  "version": "2.0.3"
+}

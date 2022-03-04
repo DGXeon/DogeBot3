@@ -1,0 +1,98 @@
+{
+  "_args": [
+    [
+      "@vitalets/google-translate-api@7.0.0",
+      "/root/KurzBotz"
+    ]
+  ],
+  "_from": "@vitalets/google-translate-api@7.0.0",
+  "_id": "@vitalets/google-translate-api@7.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-zuKF+jG0EhFzRU/QAyHgTVzIDhrv5zDUmQWy7umwZryMbG8H0jK4fdMGrgla5AhQGU8ViiDWi/xbxNCKK7KHYA==",
+  "_location": "/@vitalets/google-translate-api",
+  "_phantomChildren": {
+    "clone-response": "1.0.2",
+    "duplexer3": "0.1.4",
+    "http-cache-semantics": "4.1.0",
+    "mimic-response": "1.0.1",
+    "pump": "3.0.0",
+    "to-readable-stream": "1.0.0",
+    "url-parse-lax": "3.0.0"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@vitalets/google-translate-api@7.0.0",
+    "name": "@vitalets/google-translate-api",
+    "escapedName": "@vitalets%2fgoogle-translate-api",
+    "scope": "@vitalets",
+    "rawSpec": "7.0.0",
+    "saveSpec": null,
+    "fetchSpec": "7.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@vitalets/google-translate-api/-/google-translate-api-7.0.0.tgz",
+  "_spec": "7.0.0",
+  "_where": "/root/KurzBotz",
+  "author": {
+    "name": "Matheus Fernandes",
+    "email": "npm@matheus.top",
+    "url": "http://matheus.top"
+  },
+  "bugs": {
+    "url": "https://github.com/vitalets/google-translate-api/issues"
+  },
+  "dependencies": {
+    "configstore": "^5.0.1",
+    "got": "^9.6.0"
+  },
+  "description": "A free and unlimited API for Google Translate",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "codecov": "^3.8.1",
+    "coveralls": "^2.11.11",
+    "husky": "^3.0.4",
+    "nyc": "^15.1.0",
+    "xo": "^0.16.0"
+  },
+  "homepage": "https://github.com/vitalets/google-translate-api#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "xo",
+      "pre-push": "npm test"
+    }
+  },
+  "keywords": [
+    "translate",
+    "translator",
+    "google",
+    "translate",
+    "api",
+    "free",
+    "language"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@vitalets/google-translate-api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitalets/google-translate-api.git"
+  },
+  "scripts": {
+    "coverage": "nyc report --reporter=text-lcov | coveralls && nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "postrelease": "git push --follow-tags --no-verify",
+    "release": "npm test && npm version $VER && npm publish",
+    "release-minor": "VER=minor npm run release",
+    "release-patch": "VER=patch npm run release",
+    "test": "xo && nyc ava"
+  },
+  "version": "7.0.0",
+  "xo": {
+    "space": 4,
+    "parserOptions": {
+      "ecmaScript": 7
+    }
+  }
+}
