@@ -15,9 +15,11 @@
 <p align="center">
 <a href="#"><img title="Xeon" src="https://img.shields.io/static/v1?label=WHATSAPP&message=Automated-Bot&color=blue"></a>
 </p>
-## Scan 
-[Oke]
-## Deploy To
+
+# Scan QR Code For Session
+[![Doge Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Doge-Bot-Qr-Code-Generator?v=1)
+
+## Deployment
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DGXeon/DogeBot3/)
 
 # Requirements
