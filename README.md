@@ -28,7 +28,7 @@
 
 ## `SETTINGS`
 
-- CHANGE OWNER NUMBER [Here](https://github.com/DGXeon/DogeBot3/edit/master/setting/setting.json#L6)
+- CHANGE OWNER NUMBER [Here](https://github.com/DGXeon/DogeBot3/blob/master/setting/setting.json#L6)
 - CHANGE OWNER NAME [Here](https://github.com/DGXeon/DogeBot3/blob/master/setting/settings.json#L7)
 - CHANGE BOT NAME [Here](https://github.com/DGXeon/DogeBot3/blob/master/setting/settings.json#L8)
 
