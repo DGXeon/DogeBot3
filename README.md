@@ -29,7 +29,7 @@
 
 ## `CHANGE SESSION`
 
-[`Click Here`](https://github.com/DGXeon/DogeBot2/blob/master/session.json#L1)
+[`Click Here`](https://github.com/mianafzaal/DogeBot3/blob/master/session.json#L1)
 
 ## `SETTINGS`
 
@@ -46,7 +46,7 @@ https://github.com/DuckyTeam/heroku-buildpack-imagemagick
 heroku/nodejs
 ```
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DGXeon/DogeBot3/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mianafzaal/DogeBot3/)
 
 # Install Manually 👇
 ## `Requirements`
@@ -57,7 +57,7 @@ heroku/nodejs
 * Any text editor
 ## `Clone Repo & Installation dependencies`
 ```bash
-🦄 git clone https://github.com/DGXeon/DogeBot.git
+🦄 git clone https://github.com/mianafzaal/DogeBot.git
 🦄 cd DogeBot3
 🦄 npm start
 ```
@@ -74,7 +74,7 @@ heroku/nodejs
 🦄 pkg install ffmpeg -y 
 🦄 pkg install wget
 🦄 pkg install imagemagick -y
-🦄 git clone https://github.com/DGXeon/DogeBot2
+🦄 git clone https://github.com/mianafzaal/DogeBot3
 🦄 cd DogeBot3
 🦄 ls
 🦄 rm -rf session.json
