@@ -1,5 +1,5 @@
 //please give credit
-//If you want to reupload or copy the codes
+//if you reupload or copy the codes
 //Xeon Bot Inc.
 const {
     WAConnection,
