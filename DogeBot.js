@@ -1,7 +1,8 @@
 //═══════════════════════════════════════════════════════//
-//If you want to reupload or copy the codes
-//Pls give credit
-//© Xeon Bot Inc.
+//If you want to recode, reupload
+//or copy the codes,
+//pls give credit
+//© 2022 Xeon Bot Inc. Doge Bot 
 //Thank you to Lord Buddha, Family and Myself
 //═══════════════════════════════════════════════════════//
 const
@@ -618,7 +619,7 @@ case 'command':
 
 listMsg = {
 buttonText: 'MENU 📃',
-footerText: `*© ${ownername}*`,
+footerText: `*${botname}*`,
 description: `Hi Friend @${senderr.split('@')[0]}, Please select the menu here`,
 sections: [
 {
