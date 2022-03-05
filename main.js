@@ -24,7 +24,7 @@ nocache('./DogeBot.js', module => console.log(`${module} updated`))
 const starts = async (Dhani = new WAConnection()) => {
     Dhani.logger.level = 'warn'
     Dhani.version = [2, 2142, 12]
-    Dhani.browserDescription = [ 'Xeon', 'Chrome', '3.0' ]
+    Dhani.browserDescription = [ 'Subscribe Xeon', 'Chrome', '3.0' ]
     Dhani.on('qr', () => {
         console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan the qr code in only 20 seconds !!'))
     })
