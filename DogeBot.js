@@ -4499,14 +4499,14 @@ await DogeXeonOP.sendMessage(from, bMess, MessageType.buttonsMessage, {quoted: m
 break
 					case 'opengc':
 					if (!isGroup) return reply(mess.only.group)
-					if (!isGroupAdmins) return sticAdmin(from)
+					if (!isGroupAdmins) return reply(mess.group)
                    if (!isBotGroupAdmins) return sticNotAdmin(from)
                    reply(`Successful opening group ${groupName}`)
 						DogeXeonOP.groupSettingChange(from, GroupSettingChange.messageSend, false)
 						break
 						case 'closegc':
 						if (!isGroup) return reply(mess.only.group)
-						if (!isGroupAdmins) return sticAdmin(from)
+						if (!isGroupAdmins) return reply(mess.only.admin)
                    if (!isBotGroupAdmins) return sticNotAdmin(from)
 						reply(`Successfully closing the group ${groupName}`)
 						DogeXeonOP.groupSettingChange(from, GroupSettingChange.messageSend, true)
@@ -4727,7 +4727,7 @@ break
                            case 'tagall':
                 case 'tag':
 					if (!isGroup) return reply(mess.group)
-					if (!isGroupAdmins && !mek.key.fromMe) return sticAdmin(from)
+					if (!isGroupAdmins && !mek.key.fromMe) return reply('only admin and bot owner can use this feature')
 					members_id = []
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
@@ -4740,7 +4740,7 @@ break
 case 'totag':
 case 'sticktag':
 			if (!isGroup) return reply(mess.only.group)
-			if (!isGroupAdmins && !mek.key.fromMe) return sticAdmin(from)
+			if (!isGroupAdmins && !mek.key.fromMe) return reply('only admin and bot owner can use this feature)
             if ((isMedia && !mek.message.videoMessage || isQuotedSticker) && args.length == 0) {
             encmediau = isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
             file = await DogeXeonOP.downloadAndSaveMediaMessage(encmediau, filename = getRandom())
