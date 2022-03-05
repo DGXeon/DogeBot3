@@ -4740,7 +4740,7 @@ break
 case 'totag':
 case 'sticktag':
 			if (!isGroup) return reply(mess.only.group)
-			if (!isGroupAdmins && !mek.key.fromMe) return reply('only admin and bot owner can use this feature)
+			if (!isGroupAdmins && !mek.key.fromMe) return reply('only admin and bot owner can use this feature')
             if ((isMedia && !mek.message.videoMessage || isQuotedSticker) && args.length == 0) {
             encmediau = isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
             file = await DogeXeonOP.downloadAndSaveMediaMessage(encmediau, filename = getRandom())
