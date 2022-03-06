@@ -92,7 +92,6 @@ DogeXeonOP.on("group-participants-update", async (anu) => {
         DogeXeonOP.sendMessage(anu.jid, "Hello everyone, am Doge Bot, ready to help you here ㋛︎", "conversation")
       }
       buffer = await getBuffer(pp_user)
-      if (!isWelkom) return
       if (anu.action == 'add' && !mem.includes(DogeXeonOP.user.jid)) {
       const mdata = await DogeXeonOP.groupMetadata(anu.jid)
       const memeg = mdata.participants.length
