@@ -4115,7 +4115,7 @@ case 'setppbot':
 if (!isOwner && !mek.key.fromMe) return reply(mess.only.owner)
 if (!isQuotedImage) return reply(`Send a picture with a caption ${prefix}setppbot or tag images that have already been sent`)
 enmediaheheh = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
-media = await DogeXeonOP.downloadAndSaveMediaMessage(encmediaheheh, './database/sampah/media_user')
+media = await DogeXeonOP.downloadAndSaveMediaMessage(enmediaheheh, './database/sampah/media_user')
 await DogeXeonOP.updateProfilePicture(botNumber, media)
 reply('Thank you for the new profile photo, my dear owner 😚')
 break
