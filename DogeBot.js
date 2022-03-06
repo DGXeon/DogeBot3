@@ -3488,8 +3488,8 @@ case 'memegenerator': case 'memegen':{
 										reply(mess.wait)
 										var teks1 = q.split('|')[0] ? q.split('|')[0] : ''
 										var teks2 = q.split('|')[1] ? q.split('|')[1] : ''
-										var enmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-									   var mediiia = await DogeXeonOP.downloadMediaMessage(enmedia)
+										var enmediaokekek = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+									   var mediiia = await DogeXeonOP.downloadMediaMessage(enmediaokekek)
 										var njay = await uploadImages(mediiia)
 										var resu = await getBuffer(`https://api.memegen.link/images/custom/${teks1}/${teks2}.png?background=${njay}`)
 										DogeXeonOP.sendMessage(from, resu, image, {caption:'.stikerin bang', thumbnail: Buffer.alloc(0), quoted: mek})
@@ -3507,8 +3507,8 @@ case 'memegenerator': case 'memegen':{
 										if (!isQuotedImage) return reply(`Reply to an image!`)
 										reply(mess.wait)
 										var teks2 = args.join(' ')
-										var enmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-										var mediia = await DogeXeonOP.downloadMediaMessage(enmedia)
+										var enmedialel = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+										var mediia = await DogeXeonOP.downloadMediaMessage(enmedialel)
 										var njay = await uploadImages(mediia)
 										var resu = `https://api.memegen.link/images/custom/-/${teks2}.png?background=${njay}`
 										sendStickerFromUrl(from,`${resu}`)	
@@ -3680,8 +3680,8 @@ reply(mess.wait)
 var teks1 = q.split('|')[0] ? q.split('|')[0] : ''
 var teks2 = q.split('|')[1] ? q.split('|')[1] : ''
 var imgbb = require('imgbb-uploader')
-var enmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
-var media = await DogeXeonOP.downloadAndSaveMediaMessage(enmedia)
+var enmediahe1 = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
+var media = await DogeXeonOP.downloadAndSaveMediaMessage(enmediahe1)
 var njay = await imgbb('520bd6f6209077d1777c2a4f20c509c2', media)
 var resu = await getBuffer(`https://api.memegen.link/images/custom/${teks1}/${teks2}.png?background=${njay.display_url}`)
 DogeXeonOP.sendMessage(from, resu, image, {quoted: mek})
@@ -4114,8 +4114,8 @@ case 'setbotpp':
 case 'setppbot':
 if (!isOwner && !mek.key.fromMe) return reply(mess.only.owner)
 if (!isQuotedImage) return reply(`Send a picture with a caption ${prefix}setppbot or tag images that have already been sent`)
-enmedia = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
-media = await DogeXeonOP.downloadAndSaveMediaMessage(encmedia, './database/sampah/media_user')
+enmediaheheh = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
+media = await DogeXeonOP.downloadAndSaveMediaMessage(encmediaheheh, './database/sampah/media_user')
 await DogeXeonOP.updateProfilePicture(botNumber, media)
 reply('Thank you for the new profile photo, my dear owner 😚')
 break
