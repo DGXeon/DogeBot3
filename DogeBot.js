@@ -271,7 +271,7 @@ console.log(e)
 //══════════[ Mess Dll ]══════════//
 
 mess = {
-wait: 'In process...',
+wait: 'In process😁...',
 eror: 'Sorry an error occurred!!',
 success: 'Done✓',
 error: {
@@ -511,8 +511,8 @@ for (let anji of setik){
                 addLevelingLevel(sender, 1)   
                 var lvlup = (`╭───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」
 │
-├ 💜 𝗡𝗮𝗺𝗲 : ${pushname}
-├ 📱 𝗡𝘂𝗺𝗯𝗲𝗿 : ${sender.split('@')[0]}
+├ 💜 𝗡𝗮𝗺𝗲 : ${Mian}
+├ 📱 𝗡𝘂𝗺𝗯𝗲𝗿 : ${sender.split('@')[923430436852]}
 ├ 🏅 𝗥𝗮𝗻𝗸 : ${role}
 ├ 🔖 𝗫𝗣 : ${getLevelingXp(sender)}
 ├ 💠 𝗟𝗲𝘃𝗲𝗹  : ${getLevelingLevel(sender)}
