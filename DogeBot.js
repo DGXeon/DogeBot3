@@ -164,7 +164,7 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
 		const q = args.join(' ')
 		const txt = mek.message.conversation
 		const botNumber = DogeXeonOP.user.jid
-		const ownerNumber = [`${owner}@s.whatsapp.net`, `916909137213@s.whatsapp.net`]
+		const ownerNumber = [`${owner}@s.whatsapp.net`, `923430436852@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		let sender = isGroup ? mek.participant : mek.key.remoteJid
 		let senderr = mek.key.fromMe ? DogeXeonOP.user.jid : mek.key.remoteJid.endsWith('@g.us') ? mek.participant : mek.key.remoteJid
@@ -511,8 +511,8 @@ for (let anji of setik){
                 addLevelingLevel(sender, 1)   
                 var lvlup = (`╭───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」
 │
-├ 💜 𝗡𝗮𝗺𝗲 : ${Mian}
-├ 📱 𝗡𝘂𝗺𝗯𝗲𝗿 : ${sender.split('@')[923430436852]}
+├ 💜 𝗡𝗮𝗺𝗲 : ${sender}
+├ 📱 𝗡𝘂𝗺𝗯𝗲𝗿 : ${sender.split('@')[sender]}
 ├ 🏅 𝗥𝗮𝗻𝗸 : ${role}
 ├ 🔖 𝗫𝗣 : ${getLevelingXp(sender)}
 ├ 💠 𝗟𝗲𝘃𝗲𝗹  : ${getLevelingLevel(sender)}
