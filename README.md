@@ -82,8 +82,8 @@ heroku/nodejs
 🦄 scan qr code within 15seconds
 ```
 ## Installation Video 👇
-- Review video [Click here](https://youtu.be/zXvwqA8LvTw)
-- Tutorial video [Click here](https://youtu.be/B7DN5miMS3k)
+- Review video [Click here](lol)
+- Tutorial video [Click here](lol)
 ## Connect With Me
 My Personal Chat👇
 <p align="center">
@@ -99,4 +99,4 @@ My Whatsapp Group👇
 
 # Thanks To 👇
 * [`Baileys`](https://github.com/adiwajshing/Baileys)
-* [`Xeon`](https://github.com/mianafzaal)
+* [`Mian`](https://github.com/mianafzaal)
