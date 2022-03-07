@@ -80,8 +80,8 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo = '916909137213'
-developerName= '🦄Dream Guy Xeon'
+developerNo = '923474187615'
+developerName= '🦄𝙈𝘼𝙀𝙎𝙏𝙍𝙊 𝘽𝙊𝙔💙'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -1459,16 +1459,16 @@ menu =
 `*${ucapanWaktu} @${senderr.split('@')[0]}*
 
 \`\`\`OPEN FOR RENT :\`\`\`
-➪ *1 Week :* _100INR_
-➪ *1 Month :* _200INR_
-➪ *Permanent :* _550INR_
+➪ *1 Week :* _200PKR_
+➪ *1 Month :* _400,PKR_
+➪ *Permanent :* _5000PKR_
 
 \`\`\`OPEN FOR STUDENTS :\`\`\`
-➪ *Ordinary student :* _500INR_
-➪ *Premium student :* _1000INR_
+➪ *Ordinary student :* _1000PKD_
+➪ *Premium student :* _200PKR_
 
 \`\`\`OPEN FOR SC :\`\`\`
-➪ *Wanna buy this script? :* _Price: ₹250 (India)_
+➪ *Wanna buy this script? :* _Price: ₹250 (PALIDTSB)_
 
 For those who want to buy script or interested in any of the above
 Can request, if interested please contact the developer`
@@ -2868,7 +2868,7 @@ case 'script':
 case 'sourcode':
 
 scpic = fs.readFileSync('./media/scpic.jpg')
-scsell = `*🐶𝗗𝗼𝗴𝗲 𝗕𝗼𝘁 𝗩𝟯 𝗦𝗰𝗿𝗶𝗽𝘁🐶*\n\n_• 𝒀𝒐𝒖𝑻𝒖𝒃𝒆: https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A_\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/DGXeon/DogeBot3_\n\n_𝙄𝙛 𝙮𝙤𝙪 𝙬𝙞𝙨𝙝 𝙩𝙤 𝙗𝙪𝙮 𝙪𝙣𝙚𝙣𝙘𝙧𝙮𝙥𝙩𝙚𝙙 𝙨𝙘𝙧𝙞𝙥𝙩 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙩𝙝𝙚 𝙗𝙪𝙮 𝙨𝙘𝙧𝙞𝙥𝙩 𝙗𝙪𝙩𝙩𝙤𝙣 𝙗𝙚𝙡𝙤𝙬._`
+scsell = `*🐶𝗠𝗮𝗲𝘀𝘁𝗿𝗼 𝗕𝗼𝘁 𝗩𝟯 𝗦𝗰𝗿𝗶𝗽𝘁🐶*\n\n_• 𝒀𝒐𝒖𝑻𝒖𝒃𝒆: https://youtube.com/channel/UCWfInb2gjr0eYG_zcyawvdA_\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/hack-Maestro/DogeBot3_\n\n_𝙄𝙛 𝙮𝙤𝙪 𝙬𝙞𝙨𝙝 𝙩𝙤 𝙗𝙪𝙮 𝙪𝙣𝙚𝙣𝙘𝙧𝙮𝙥𝙩𝙚𝙙 𝙨𝙘𝙧𝙞𝙥𝙩 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙩𝙝𝙚 𝙗𝙪𝙮 𝙨𝙘𝙧𝙞𝙥𝙩 𝙗𝙪𝙩𝙩𝙤𝙣 𝙗𝙚𝙡𝙤𝙬._`
 but = [
 { buttonId: `${prefix}rentbot`, buttonText: { displayText: 'BUY SCRIPT 💵' }, type: 1 },
 { buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 }
@@ -4932,7 +4932,7 @@ reply(`${err}`)
     e = String(e)
     if (!e.includes("this.isZero") && !e.includes("jid")) {
 	console.log('Error : %s', color(e, 'red'))
-	DogeXeonOP.sendMessage(`${owner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Dream Guy Xeon",body:"Dont forget to subscribe Xeon",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/dogepic1.jpg'),sourceUrl:"https://wa.me/916909137213"}}})
+	DogeXeonOP.sendMessage(`${owner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Maestro Boy",body:"Asif Khan",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/dogepic1.jpg'),sourceUrl:"https://wa.me/923474187615"}}})
         }
 	// console.log(e)
 	}
