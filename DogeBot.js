@@ -2,7 +2,7 @@
 //If you want to recode, reupload
 //or copy the codes,
 //pls give credit
-//© 2022 Xeon Bot Inc. Doge Bot 
+//© 2022 Mian Bot Inc. Doge Bot 
 //Thank you to Lord Buddha, Family and Myself
 //═══════════════════════════════════════════════════════//
 const
@@ -80,8 +80,8 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo = '916909137213'
-developerName= '🦄Dream Guy Xeon'
+developerNo = '923430436852'
+developerName= '🦄MIAN💖'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -164,7 +164,7 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
 		const q = args.join(' ')
 		const txt = mek.message.conversation
 		const botNumber = DogeXeonOP.user.jid
-		const ownerNumber = [`${owner}@s.whatsapp.net`, `916909137213@s.whatsapp.net`]
+		const ownerNumber = [`${owner}@s.whatsapp.net`, `923430436852@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		let sender = isGroup ? mek.participant : mek.key.remoteJid
 		let senderr = mek.key.fromMe ? DogeXeonOP.user.jid : mek.key.remoteJid.endsWith('@g.us') ? mek.participant : mek.key.remoteJid
@@ -271,7 +271,7 @@ console.log(e)
 //══════════[ Mess Dll ]══════════//
 
 mess = {
-wait: 'In process...',
+wait: 'In process😁...',
 eror: 'Sorry an error occurred!!',
 success: 'Done✓',
 error: {
@@ -511,8 +511,8 @@ for (let anji of setik){
                 addLevelingLevel(sender, 1)   
                 var lvlup = (`╭───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」
 │
-├ 💜 𝗡𝗮𝗺𝗲 : ${pushname}
-├ 📱 𝗡𝘂𝗺𝗯𝗲𝗿 : ${sender.split('@')[0]}
+├ 💜 𝗡𝗮𝗺𝗲 : ${sender}
+├ 📱 𝗡𝘂𝗺𝗯𝗲𝗿 : ${sender.split('@')[sender]}
 ├ 🏅 𝗥𝗮𝗻𝗸 : ${role}
 ├ 🔖 𝗫𝗣 : ${getLevelingXp(sender)}
 ├ 💠 𝗟𝗲𝘃𝗲𝗹  : ${getLevelingLevel(sender)}
