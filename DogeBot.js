@@ -3167,9 +3167,9 @@ case 'ninjaname':
 if (args.length < 1) return reply(`[❗] Example :\n*${prefix}${command} Naruto*`)  
 F = body.slice(11)
 anunname = await fetchJson(`https://docs-jojo.herokuapp.com/api/ninja_name?name=${F}`)
-anu1 = `🐶 *NAME* : ${anunname.your_name}\n`
-anu1 += `🐶 *NINJA* : ${anu.result}\n`
-reply(anu1)
+anu189 = `🐶 *NAME* : ${anunname.your_name}\n`
+anu000 += `🐶 *NINJA* : ${anu189.result}\n`
+reply(anu000)
 break
 case 'stylishcoolname':
 anuscn = await fetchJson(`https://leyscoders-api.herokuapp.com/api/nick-epep?apikey=${Leyscoders}`)
