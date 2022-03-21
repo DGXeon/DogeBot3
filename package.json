@@ -44,15 +44,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BOTZ-DHANI"
+    "url": "git+https://github.com/DGXeon"
   },
   "keywords": [
     "Wasu"
   ],
-  "author": "DhaniGans",
+  "author": "Xeon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BOTZ-DHANI/Base-DhaniGans/issue"
+    "url": "https://github.com/DGXeon/DogeBot3/issue"
   },
-  "homepage": "https://github.com/BOTZ-DHANI/BOTZ-DHANI"
+  "homepage": "https://github.com/DGXeon/DogeBot3"
 }
